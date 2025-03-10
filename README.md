@@ -1,59 +1,82 @@
-# DocCare
+### **README.md**  
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.1.
+```md
+# Doc_Manage_Web_Application  
 
-## Development server
+## 🏥 Overview  
+**Doc_Manage_Web_Application** is a **healthcare management system** designed to enhance the patient experience and streamline tasks for medical professionals. It provides a scalable and robust solution to modern healthcare needs.
 
-To start a local development server, run:
+## 🚀 Features  
+- **Patient Management** – Register, update, and track patient records efficiently.  
+- **Appointment Scheduling** – Book and manage doctor appointments.  
+- **Medical Records** – Securely store and retrieve patient history.  
+- **User Roles & Authentication** – Secure access for doctors, patients, and administrators.  
+- **Real-time Notifications** – Alerts for appointments and updates.  
 
-```bash
-ng serve
-```
+## 🛠️ Tech Stack  
+| Technology  | Usage |
+|------------|------------------|
+| **Angular**  | Front-end UI |
+| **Node.js & Express.js**  | Backend API |
+| **MongoDB**  | Database |
+| **JWT Authentication**  | Secure user authentication |
+| **Bootstrap / TailwindCSS**  | UI styling |
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## 📌 Installation  
 
-## Code scaffolding
+1. **Clone the repository:**  
+   ```sh
+   git clone https://github.com/ranju12k/Doc_Manage_Web_Application.git
+   cd Doc_Manage_Web_Application
+   ```
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+2. **Install dependencies:**  
+   - **Backend:**  
+     ```sh
+     cd backend
+     npm install
+     ```
+   - **Frontend:**  
+     ```sh
+     cd frontend
+     npm install
+     ```
 
-```bash
-ng generate component component-name
-```
+3. **Set up environment variables:**  
+   - Create a `.env` file in the **backend** folder with:  
+     ```env
+     PORT=5000
+     MONGO_URI=your_mongodb_connection_string
+     JWT_SECRET=your_secret_key
+     ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+4. **Run the Application:**  
+   - **Start Backend:**  
+     ```sh
+     cd backend
+     npm start
+     ```
+   - **Start Frontend:**  
+     ```sh
+     cd frontend
+     ng serve
+     ```
 
-```bash
-ng generate --help
-```
+5. **Open in Browser:**  
+   - Visit `http://localhost:4200/` to access the app.
 
-## Building
+## 📷 Screenshots  
+_Add screenshots here to showcase the UI._
 
-To build the project run:
+## 📖 API Documentation  
+_Add API endpoint details if necessary._
 
-```bash
-ng build
-```
+## 💡 Future Enhancements  
+- 📊 Dashboard for analytics  
+- 🏥 Integration with telemedicine  
+- 💳 Online payments for healthcare services  
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## 📝 License  
+This project is licensed under the **MIT License**.  
 
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+---
