@@ -1,0 +1,41 @@
+.landing-page {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  
+    .header {
+      display: flex;
+      justify-content: space-between;
+      padding: 15px 30px;
+      background-color: #0078d7;
+      color: white;
+  
+      nav a {
+        margin-left: 10px;
+      }
+    }
+  
+    .hero {
+      margin: 50px 0;
+      padding: 30px;
+      background: #f4f4f4;
+    }
+  
+    .features {
+      display: flex;
+      justify-content: space-around;
+      padding: 20px;
+      background: white;
+  
+      .feature {
+        max-width: 200px;
+      }
+    }
+  
+    .footer {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #333;
+      color: white;
+    }
+  }
+  
